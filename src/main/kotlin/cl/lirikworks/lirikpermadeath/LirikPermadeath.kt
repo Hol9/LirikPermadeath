@@ -17,7 +17,7 @@ class LirikPermadeath(
     modContainer: ModContainer
 ) {
     init {
-        LOGGER.info("Inicializando Lirik Permadeath")
+        LOGGER.info("Inicializando $MOD_NAME")
 
         registerContent(modBus)
         registerConfig()

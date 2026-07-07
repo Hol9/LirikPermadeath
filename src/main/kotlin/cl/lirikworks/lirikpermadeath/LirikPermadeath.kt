@@ -1,5 +1,8 @@
 package cl.lirikworks.lirikpermadeath
 
+import cl.lirikworks.lirikpermadeath.util.ModConstants.MOD_ID
+import cl.lirikworks.lirikpermadeath.util.ModConstants.MOD_NAME
+
 import net.neoforged.bus.api.IEventBus
 import net.neoforged.fml.ModContainer
 import net.neoforged.fml.common.Mod

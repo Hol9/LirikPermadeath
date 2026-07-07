@@ -1,4 +1,6 @@
 package cl.lirikworks.lirikpermadeath.util
 
-class ModConstants {
+object ModConstants {
+    const val MOD_ID = "lirikpermadeath"
+    const val MOD_NAME = "LirikPermadeath"
 }

@@ -16,7 +16,7 @@ object ModCreativeTabs {
 
     val MAIN_TAB: Supplier<CreativeModeTab> = TABS.register("main", Supplier {
         CreativeModeTab.builder()
-            .title("Lirik Permadeath")
+            .title(Component.literal(ModConstants.MOD_NAME))
             .icon {
                 ItemStack(ModItems.TEST_ITEM.get)
             }

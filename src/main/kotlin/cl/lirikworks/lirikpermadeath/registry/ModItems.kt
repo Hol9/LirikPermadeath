@@ -5,6 +5,7 @@ import net.minecraft.world.item.Item
 import net.neoforged.bus.api.IEventBus
 import net.neoforged.neoforge.registries.DeferredItem
 import net.neoforged.neoforge.registries.DeferredRegister
+import java.util.function.Supplier
 
 object ModItems {
 
@@ -13,7 +14,7 @@ object ModItems {
 
     val TEST_ITEM: DeferredItem<Item> = ITEMS.registerSimpleItem(
         "test_item",
-        Item.Properties()
+        Supplier { Item.Properties() }
     )
 
     fun register(eventBus: IEventBus) {

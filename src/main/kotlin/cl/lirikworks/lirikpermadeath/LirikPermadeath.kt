@@ -1,5 +1,6 @@
 package cl.lirikworks.lirikpermadeath
 
+import cl.lirikworks.lirikpermadeath.registry.ModCreativeTabs
 import cl.lirikworks.lirikpermadeath.registry.ModItems
 import cl.lirikworks.lirikpermadeath.util.ModConstants.MOD_ID
 import cl.lirikworks.lirikpermadeath.util.ModConstants.MOD_NAME
@@ -24,6 +25,7 @@ class LirikPermadeath(
 
     private fun registerContent(modBus: IEventBus) {
         ModItems.register(modBus)
+        ModCreativeTabs.register(modBus)
     }
 
     private fun registerConfig() {

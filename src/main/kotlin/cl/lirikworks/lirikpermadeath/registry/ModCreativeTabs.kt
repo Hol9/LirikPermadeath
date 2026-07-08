@@ -18,7 +18,7 @@ object ModCreativeTabs {
         CreativeModeTab.builder()
             .title(Component.literal(ModConstants.MOD_NAME))
             .icon {
-                ItemStack(ModItems.TEST_ITEM.get)
+                ItemStack(ModItems.TEST_ITEM.get())
             }
             .displayItems { _, output ->
                 output.accept(ModItems.TEST_ITEM.get())
